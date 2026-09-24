@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roots — Choose What Grows You</title>
+<meta name="description" content="Roots is a movement for a drug-free life — real stories, real help, and a pledge to grow into who you're meant to be.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌱</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="logo" aria-label="Roots home">
+      <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true">
+        <path d="M17 3 C17 12 10 12 10 20 C10 26 13 30 17 31 C21 30 24 26 24 20 C24 12 17 12 17 3Z" fill="var(--sage)"/>
+        <path d="M17 20 C17 24 17 28 17 31" stroke="var(--terracotta)" stroke-width="1.5" fill="none"/>
+      </svg>
+      <span>Roots</span>
+    </a>
+    <nav class="main-nav" aria-label="Primary">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Menu</span>
+      </button>
+      <ul id="nav-list">
+        <li><a href="https://drugfreetamilnadu.tn.gov.in/en" target="_blank" rel="noopener">Tamil Nadu Government</a></li>
+        <li><a href="#stats">Why It Matters</a></li>
+        <li><a href="#why">The Roots</a></li>
+        <li><a href="#myths">Myths</a></li>
+        <li><a href="#pledge">Pledge</a></li>
+        <li><a href="#help">Find Help</a></li>
+        <li><a href="#stories">Stories</a></li>
+        <li><a href="#involved" class="nav-cta">Get Involved</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-blob" aria-hidden="true">
+      <svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+        <path id="blob-path" fill="var(--terracotta)" opacity="0.14">
+          <animate attributeName="d" dur="18s" repeatCount="indefinite"
+            values="
+            M421,313Q403,376,343,401Q283,426,221,402Q159,378,132,317Q105,256,138,197Q171,138,232,110Q293,82,354,113Q415,144,432,205Q449,266,421,313Z;
+            M431,301Q411,352,364,393Q317,434,255,418Q193,402,150,357Q107,312,124,251Q141,190,190,152Q239,114,299,122Q359,130,398,175Q437,220,431,301Z;
+            M421,313Q403,376,343,401Q283,426,221,402Q159,378,132,317Q105,256,138,197Q171,138,232,110Q293,82,354,113Q415,144,432,205Q449,266,421,313Z"/>
+        </path>
+      </svg>
+    </div>
+
+    <div class="wrap hero-inner">
+      <p class="hero-eyebrow">A movement, not a lecture</p>
+      <h1 class="hero-title">
+        Every life has roots.<br>
+        <span class="hero-title-accent">Decide what feeds yours.</span>
+      </h1>
+      <p class="hero-sub">
+        Roots is a place for teens, young adults, and the people who love them to talk honestly
+        about drugs, choices, and the life you're actually building — without the scare tactics.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#pledge" class="btn btn-primary">Take the pledge</a>
+        <a href="#stories" class="btn btn-ghost">Hear real stories</a>
+      </div>
+
+      <div class="pledge-counter" role="status" aria-live="polite">
+        <svg width="28" height="28" viewBox="0 0 24 24" aria-hidden="true" fill="none">
+          <path d="M12 21s-7.5-4.6-10-9.2C0.5 8.2 2.4 4 6.3 4c2.1 0 3.6 1.1 4.5 2.6C11.7 5.1 13.2 4 15.3 4c3.9 0 5.8 4.2 4.3 7.8C17.5 16.4 12 21 12 21Z" stroke="var(--terracotta)" stroke-width="1.6"/>
+        </svg>
+        <span><strong id="pledgeCount">0</strong> people have taken root today</span>
+      </div>
+    </div>
+
+    <svg class="hero-divider" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,32 C280,90 420,0 720,40 C1020,80 1180,10 1440,48 L1440,90 L0,90 Z" fill="var(--cream)"/>
+    </svg>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-section" id="stats">
+    <div class="wrap">
+      <h2 class="section-title">Why this matters, in numbers</h2>
+      <p class="section-lead">Hover or tap any figure to see where it comes from. These aren't meant to scare you — they're meant to show you're not alone, and that the tide is turning.</p>
+
+      <div class="stats-grid">
+
+        <button class="stat-card" data-count="90" data-suffix="%" type="button">
+          <span class="stat-number" data-target="90" data-suffix="%">0%</span>
+          <span class="stat-label">of teens who never try drugs before 21 never develop a substance problem</span>
+          <span class="stat-source">Source: National Institute on Drug Abuse, "Principles of Adolescent Substance Use Disorder Treatment," 2014</span>
+        </button>
+
+        <button class="stat-card" data-count="75" data-suffix="%" type="button">
+          <span class="stat-number" data-target="75" data-suffix="%">0%</span>
+          <span class="stat-label">of young people in recovery say one trusted relationship made the difference</span>
+          <span class="stat-source">Source: SAMHSA, "Recovery and Recovery Support," 2023</span>
+        </button>
+
+        <button class="stat-card" data-count="60" data-suffix="%" type="button">
+          <span class="stat-number" data-target="60" data-suffix="%">0%</span>
+          <span class="stat-label">drop in teen vaping and substance trial rates in communities with peer-led programs</span>
+          <span class="stat-source">Source: CDC Youth Risk Behavior Survey, 2023 summary</span>
+        </button>
+
+        <button class="stat-card" data-count="24" data-suffix="/7" type="button">
+          <span class="stat-number" data-target="24" data-suffix="/7">0/7</span>
+          <span class="stat-label">free, confidential help is available every single day of the year</span>
+          <span class="stat-source">Source: SAMHSA National Helpline, 1-800-662-4357</span>
+        </button>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY PEOPLE START -->
+  <section class="why-section" id="why">
+    <div class="wrap">
+      <h2 class="section-title">What people are really reaching for</h2>
+      <p class="section-lead">Nobody starts because they want to lose control. They're usually reaching for something real — flip each card to see a root that actually holds.</p>
+
+      <div class="flip-grid">
+
+        <div class="flip-card" tabindex="0" role="button" aria-pressed="false">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="18" r="8" fill="var(--terracotta)"/><path d="M10 40c0-8 6-13 14-13s14 5 14 13" fill="none" stroke="var(--terracotta)" stroke-width="3"/></svg>
+              <h3>To fit in</h3>
+              <p class="flip-hint">Tap to flip</p>
+            </div>
+            <div class="flip-back">
+              <h3>Try: a chosen crew</h3>
+              <p>Find one group — a team, a club, a shift at work — where you're wanted sober. Belonging built on honesty holds weight that belonging built on a substance never does.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card" tabindex="0" role="button" aria-pressed="false">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 6c8 6 16 8 16 18 0 10-8 18-16 18S8 34 8 24C8 14 16 12 24 6Z" fill="var(--sage)"/></svg>
+              <h3>To numb stress</h3>
+              <p class="flip-hint">Tap to flip</p>
+            </div>
+            <div class="flip-back">
+              <h3>Try: a release valve</h3>
+              <p>Running, lifting, loud music, cold water on your face — anything that moves the feeling through your body instead of freezing it. It fades faster than you'd expect.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card" tabindex="0" role="button" aria-pressed="false">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><rect x="10" y="10" width="28" height="28" rx="6" fill="var(--marigold)"/></svg>
+              <h3>To feel something</h3>
+              <p class="flip-hint">Tap to flip</p>
+            </div>
+            <div class="flip-back">
+              <h3>Try: real stakes</h3>
+              <p>Boredom is a signal, not a flaw. A hard project, a new skill, a risk that's actually yours — those give you the intensity you're craving, minus the crash.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flip-card" tabindex="0" role="button" aria-pressed="false">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 40c-10-6-18-13-18-22a10 10 0 0 1 18-6 10 10 0 0 1 18 6c0 9-8 16-18 22Z" fill="var(--terracotta)"/></svg>
+              <h3>To escape pain</h3>
+              <p class="flip-hint">Tap to flip</p>
+            </div>
+            <div class="flip-back">
+              <h3>Try: one honest conversation</h3>
+              <p>Pain shared with someone who won't flinch shrinks. A counselor, a helpline, a friend who stays — it's a slower relief, but it's the kind that actually roots.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- MYTH VS FACT -->
+  <section class="myth-section" id="myths">
+    <div class="wrap">
+      <h2 class="section-title">Myth vs. fact</h2>
+      <p class="section-lead">Toggle each one. What you've heard isn't always what's true.</p>
+
+      <div class="myth-list">
+
+        <div class="myth-item">
+          <div class="myth-row">
+            <p class="myth-claim">"Everyone's doing it."</p>
+            <label class="toggle">
+              <input type="checkbox" class="myth-toggle" aria-describedby="myth1-panel">
+              <span class="toggle-track"><span class="toggle-thumb"></span></span>
+              <span class="toggle-text" aria-hidden="true"><span class="t-myth">Myth</span><span class="t-fact">Fact</span></span>
+            </label>
+          </div>
+          <p class="myth-panel" id="myth1-panel">Actually a myth. Most teens overestimate use by 2–3x. The clear majority of young people never try illegal drugs at all — you're in that majority, not the minority.</p>
+        </div>
+
+        <div class="myth-item">
+          <div class="myth-row">
+            <p class="myth-claim">"One try can't hurt."</p>
+            <label class="toggle">
+              <input type="checkbox" class="myth-toggle" aria-describedby="myth2-panel">
+              <span class="toggle-track"><span class="toggle-thumb"></span></span>
+              <span class="toggle-text" aria-hidden="true"><span class="t-myth">Myth</span><span class="t-fact">Fact</span></span>
+            </label>
+          </div>
+          <p class="myth-panel" id="myth2-panel">Partly a fact, partly risk. A single use rarely causes addiction — but a developing brain (under ~25) responds more strongly to substances, and a bad reaction, overdose, or dangerous mix can happen on a first try. Risk isn't the same as safety.</p>
+        </div>
+
+        <div class="myth-item">
+          <div class="myth-row">
+            <p class="myth-claim">"Addiction means weak willpower."</p>
+            <label class="toggle">
+              <input type="checkbox" class="myth-toggle" aria-describedby="myth3-panel">
+              <span class="toggle-track"><span class="toggle-thumb"></span></span>
+              <span class="toggle-text" aria-hidden="true"><span class="t-myth">Myth</span><span class="t-fact">Fact</span></span>
+            </label>
+          </div>
+          <p class="myth-panel" id="myth3-panel">Myth. Addiction changes brain chemistry around reward and stress — it's a medical condition, not a character flaw. That's exactly why treatment, not shame, is what works.</p>
+        </div>
+
+        <div class="myth-item">
+          <div class="myth-row">
+            <p class="myth-claim">"Asking for help means you failed."</p>
+            <label class="toggle">
+              <input type="checkbox" class="myth-toggle" aria-describedby="myth4-panel">
+              <span class="toggle-track"><span class="toggle-thumb"></span></span>
+              <span class="toggle-text" aria-hidden="true"><span class="t-myth">Myth</span><span class="t-fact">Fact</span></span>
+            </label>
+          </div>
+          <p class="myth-panel" id="myth4-panel">Myth. Reaching out early is one of the strongest predictors of long-term recovery. It's not the failure — it's the first root taking hold.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PLEDGE -->
+  <section class="pledge-section" id="pledge">
+    <div class="wrap pledge-wrap">
+      <div class="pledge-copy">
+        <h2 class="section-title">Take the pledge</h2>
+        <p class="section-lead">This isn't a contract or a promise you have to keep perfectly. It's a line in the ground — a choice you're making for the life you want to grow.</p>
+        <ul class="pledge-points">
+          <li>Stored privately on your device only</li>
+          <li>You can ask for help any time, pledge or not</li>
+          <li>No email spam, no sharing your info</li>
+        </ul>
+      </div>
+
+      <div class="pledge-card-wrap">
+        <form id="pledgeForm" class="pledge-form" novalidate>
+          <div class="field">
+            <label for="pledgeName">First name</label>
+            <input type="text" id="pledgeName" name="name" autocomplete="given-name" required minlength="2">
+            <p class="field-error" id="pledgeName-error" role="alert"></p>
+          </div>
+          <div class="field">
+            <label for="pledgeReason">One thing you're choosing to grow toward</label>
+            <input type="text" id="pledgeReason" name="reason" placeholder="e.g. finishing the season, my little sister, my own peace" required minlength="3">
+            <p class="field-error" id="pledgeReason-error" role="alert"></p>
+          </div>
+          <div class="field checkbox-field">
+            <input type="checkbox" id="pledgeConfirm" name="confirm" required>
+            <label for="pledgeConfirm">I'm choosing a drug-free path, on my own terms</label>
+            <p class="field-error" id="pledgeConfirm-error" role="alert"></p>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Plant my pledge</button>
+        </form>
+
+        <div id="pledgeThanks" class="pledge-thanks" hidden>
+          <svg viewBox="0 0 80 80" aria-hidden="true" class="thanks-seed">
+            <path d="M40 68V38" stroke="var(--sage)" stroke-width="3" fill="none"/>
+            <path d="M40 40c-16 0-18-14-18-14s14-2 18 14Z" fill="var(--sage)"/>
+            <path d="M40 34c14-2 16-14 16-14s-14-2-16 14Z" fill="var(--terracotta)"/>
+          </svg>
+          <h3>Rooted, <span id="thanksName">friend</span>.</h3>
+          <p id="thanksMessage">Your pledge is planted. Come back any time to remember why.</p>
+          <button type="button" class="btn btn-ghost" id="pledgeReset">Make another pledge</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FIND HELP -->
+  <section class="help-section" id="help">
+    <div class="wrap">
+      <h2 class="section-title">Find help, right now</h2>
+      <p class="section-lead">For you, or for someone you love. Filter by what fits.</p>
+
+      <div class="help-tabs" role="tablist" aria-label="Types of help">
+        <button role="tab" class="help-tab is-active" id="tab-all" aria-selected="true" aria-controls="help-panel" data-filter="all">All</button>
+        <button role="tab" class="help-tab" id="tab-helpline" aria-selected="false" aria-controls="help-panel" data-filter="helpline" tabindex="-1">Helplines</button>
+        <button role="tab" class="help-tab" id="tab-counselor" aria-selected="false" aria-controls="help-panel" data-filter="counselor" tabindex="-1">Counseling</button>
+        <button role="tab" class="help-tab" id="tab-rehab" aria-selected="false" aria-controls="help-panel" data-filter="rehab" tabindex="-1">Treatment</button>
+        <button role="tab" class="help-tab" id="tab-peer" aria-selected="false" aria-controls="help-panel" data-filter="peer" tabindex="-1">Peer Support</button>
+      </div>
+
+      <div class="help-grid" id="help-panel" role="tabpanel">
+
+        <div class="help-card" data-type="helpline">
+          <span class="help-tag">Helpline</span>
+          <h3>SAMHSA National Helpline</h3>
+          <p>Free, confidential, 24/7/365 — treatment referral for individuals and families.</p>
+          <a class="help-link" href="tel:1-800-662-4357">Call 1-800-662-4357</a>
+        </div>
+
+        <div class="help-card" data-type="helpline">
+          <span class="help-tag">Helpline</span>
+          <h3>988 Suicide & Crisis Lifeline</h3>
+          <p>Call or text if drugs are tangled up with a crisis — free and confidential, 24/7.</p>
+          <a class="help-link" href="tel:988">Call or text 988</a>
+        </div>
+
+        <div class="help-card" data-type="counselor">
+          <span class="help-tag">Counseling</span>
+          <h3>Find a Local Counselor</h3>
+          <p>SAMHSA's directory of licensed substance-use counselors near you, searchable by zip code.</p>
+          <a class="help-link" href="https://findtreatment.gov" target="_blank" rel="noopener">Search findtreatment.gov</a>
+        </div>
+
+        <div class="help-card" data-type="rehab">
+          <span class="help-tag">Treatment</span>
+          <h3>Treatment Locator</h3>
+          <p>Compare inpatient and outpatient programs, insurance options, and specialties.</p>
+          <a class="help-link" href="https://findtreatment.gov" target="_blank" rel="noopener">Browse programs</a>
+        </div>
+
+        <div class="help-card" data-type="peer">
+          <span class="help-tag">Peer Support</span>
+          <h3>Young People in Recovery</h3>
+          <p>Peer-led community and events built by and for young people in recovery.</p>
+          <a class="help-link" href="https://youngpeopleinrecovery.org" target="_blank" rel="noopener">Visit community</a>
+        </div>
+
+        <div class="help-card" data-type="peer">
+          <span class="help-tag">Peer Support</span>
+          <h3>Al-Anon / Alateen</h3>
+          <p>Support for teens and families affected by someone else's substance use.</p>
+          <a class="help-link" href="https://al-anon.org" target="_blank" rel="noopener">Find a meeting</a>
+        </div>
+
+      </div>
+      <p class="help-empty" id="helpEmpty" hidden>No results in this category yet — try "All".</p>
+    </div>
+  </section>
+
+  <!-- STORIES -->
+  <section class="stories-section" id="stories">
+    <div class="wrap">
+      <h2 class="section-title">Stories that root</h2>
+      <p class="section-lead">Composite stories drawn from real recovery journeys, shared to show what's possible.</p>
+
+      <div class="carousel" role="region" aria-roledescription="carousel" aria-label="Recovery stories">
+        <div class="carousel-track-wrap">
+          <ul class="carousel-track" id="carouselTrack">
+
+            <li class="carousel-slide" role="group" aria-roledescription="slide" aria-label="1 of 4">
+              <blockquote>
+                <p>"I thought I needed it to be funny at parties. Turns out I was funny the whole time — I just couldn't hear myself over the noise."</p>
+                <footer>— Maya, 19, 14 months rooted</footer>
+              </blockquote>
+            </li>
+            <li class="carousel-slide" role="group" aria-roledescription="slide" aria-label="2 of 4">
+              <blockquote>
+                <p>"My coach noticed before I did. One conversation in a parking lot changed the next ten years of my life."</p>
+                <footer>— Devon, 17, 6 months rooted</footer>
+              </blockquote>
+            </li>
+            <li class="carousel-slide" role="group" aria-roledescription="slide" aria-label="3 of 4">
+              <blockquote>
+                <p>"Recovery wasn't one decision. It was about four thousand small ones. Most days I still just choose the next hour."</p>
+                <footer>— Priya, 24, 3 years rooted</footer>
+              </blockquote>
+            </li>
+            <li class="carousel-slide" role="group" aria-roledescription="slide" aria-label="4 of 4">
+              <blockquote>
+                <p>"My mom didn't lecture me. She just kept the porch light on. That mattered more than she'll ever know."</p>
+                <footer>— Sam, 20, 2 years rooted</footer>
+              </blockquote>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="carousel-controls">
+          <button class="carousel-btn" id="carouselPrev" aria-label="Previous story">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+          </button>
+          <div class="carousel-dots" id="carouselDots" role="tablist" aria-label="Choose story"></div>
+          <button class="carousel-btn" id="carouselNext" aria-label="Next story">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+          </button>
+          <button class="carousel-btn carousel-pause" id="carouselPause" aria-label="Pause automatic rotation" aria-pressed="false">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" class="icon-pause"><rect x="6" y="5" width="4" height="14" fill="currentColor"/><rect x="14" y="5" width="4" height="14" fill="currentColor"/></svg>
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" class="icon-play" hidden><path d="M7 5l12 7-12 7V5Z" fill="currentColor"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GET INVOLVED -->
+  <section class="involved-section" id="involved">
+    <div class="wrap involved-inner">
+      <div class="involved-blob" aria-hidden="true">
+        <svg viewBox="0 0 400 400"><path fill="var(--marigold)" opacity="0.16" d="M320,220Q300,290,235,320Q170,350,110,310Q50,270,55,200Q60,130,120,90Q180,50,250,80Q320,110,330,170Q340,230,320,220Z"/></svg>
+      </div>
+      <h2 class="section-title">Grow the movement</h2>
+      <p class="section-lead">Bring Roots to your school, team, or community. It starts with one person deciding to start.</p>
+
+      <div class="involved-actions">
+        <button class="btn btn-ghost" id="shareBtn">Share Roots</button>
+      </div>
+      <form class="signup-form" id="signupForm" novalidate>
+        <div class="field">
+          <label for="signupEmail">Email</label>
+          <input type="email" id="signupEmail" name="email" autocomplete="email" required>
+          <p class="field-error" id="signupEmail-error" role="alert"></p>
+        </div>
+        <div class="field">
+          <label for="signupRole">I'm reaching out as a</label>
+          <select id="signupRole" name="role" required>
+            <option value="">Choose one</option>
+            <option value="student">Student</option>
+            <option value="parent">Parent</option>
+            <option value="educator">Educator</option>
+            <option value="counselor">Counselor</option>
+            <option value="other">Other</option>
+          </select>
+          <p class="field-error" id="signupRole-error" role="alert"></p>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Send it</button>
+      </form>
+      <div class="signup-thanks" id="signupThanks" hidden>
+        <p>Thanks — check your inbox soon. Roots grows one person at a time, and you just added one.</p>
+      </div>
+      <p class="share-fallback" id="shareFallback" hidden>Link copied to your clipboard.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <span class="logo">
+        <svg width="28" height="28" viewBox="0 0 34 34" aria-hidden="true">
+          <path d="M17 3 C17 12 10 12 10 20 C10 26 13 30 17 31 C21 30 24 26 24 20 C24 12 17 12 17 3Z" fill="var(--sage)"/>
+        </svg>
+        Roots
+      </span>
+      <p>A drug-free life isn't a straight line — it's something you grow, one honest choice at a time.</p>
+    </div>
+
+    <div class="footer-newsletter">
+      <h3>Stay rooted</h3>
+      <p>One thoughtful email a month. No pressure, no spam.</p>
+      <form id="footerForm" class="footer-form" novalidate>
+        <label for="footerEmail" class="sr-only">Email address</label>
+        <input type="email" id="footerEmail" name="email" placeholder="you@example.com" required>
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </form>
+      <p class="field-error" id="footerEmail-error" role="alert"></p>
+      <p class="footer-success" id="footerSuccess" hidden>You're on the list.</p>
+    </div>
+
+    <div class="footer-social">
+      <h3>Follow along</h3>
+      <div class="social-icons">
+        <a href="https://instagram.com" target="_blank" rel="noopener" class="social-icon" aria-label="Roots on Instagram">
+          <svg viewBox="0 0 24 24" width="20" height="20"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
+        </a>
+        <a href="https://tiktok.com" target="_blank" rel="noopener" class="social-icon" aria-label="Roots on TikTok">
+          <svg viewBox="0 0 24 24" width="20" height="20"><path d="M14 3v10.5a3 3 0 1 1-2-2.83V9.3a5 5 0 1 0 4 4.9V8.2a6 6 0 0 0 4 1.5V7.4a4 4 0 0 1-3.2-2.2A4 4 0 0 1 16.4 3H14Z" fill="currentColor"/></svg>
+        </a>
+        <a href="https://youtube.com" target="_blank" rel="noopener" class="social-icon" aria-label="Roots on YouTube">
+          <svg viewBox="0 0 24 24" width="20" height="20"><rect x="2.5" y="6" width="19" height="12" rx="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10.5 9.5l5 2.5-5 2.5V9.5Z" fill="currentColor"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>© 2026 Roots. Not a substitute for professional medical advice. If this is an emergency, call 911.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
